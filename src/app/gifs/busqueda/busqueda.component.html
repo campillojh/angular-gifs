@@ -1,0 +1,11 @@
+<h5>Buscar :</h5>
+<input
+  type="text"
+  class="form-control"
+  placeholder="Buscar Gifs...."
+  (keyup.enter)="buscar()"
+  #txtBuscar
+/>
+<!-- evento (keyup)="buscar($event)" = cuendo suelte enter-->
+<!--   #txtBuscar se crea  esa referencia local para poder
+     capturar el value del input al pulsar enter-->
